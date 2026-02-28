@@ -71,5 +71,12 @@
 }
 
 .card-text {
-    margin-top: 1rem;
+    margin-top: 50px;
+    width: 50rem;
+    text-align: start;
+}
+
+.con-text {
+    width: 50rem;
+    margin-top: 2rem;
 }
