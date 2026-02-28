@@ -2,9 +2,24 @@
     margin-top: 2.5rem;
 }
 
-.card img {
-    width: 40rem;
+.card-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+}
+
+.card-img img{
+    width: 20rem;
     height: 20rem;
+    object-fit: cover;
+    border-radius: 2rem;
+}
+
+.about-card img {
+    width: 50rem;
+    height: 30rem;
     object-fit: cover;
     border-radius: 2rem;
 }
@@ -14,6 +29,10 @@
     flex-direction: column;
     align-items: center;
     margin-top: 2rem;
+}
+
+.vid-card h1 {
+    margin: 1rem 0;
 }
 
 .vid-card a {
@@ -30,7 +49,27 @@
     margin-top: 1rem;
 }
 
+.card h1 {
+    text-align: center;
+    margin-top: 1rem;
+}
+
 .aud-card p {
     margin-top: 1rem;
     width: 50rem;
+}
+
+.contact-card img {
+    width: 40rem;
+    margin-top: 2rem;
+    border-radius: 1rem;
+}
+
+.contact-card h1 {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.card-text {
+    margin-top: 1rem;
 }

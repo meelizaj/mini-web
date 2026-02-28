@@ -33,16 +33,18 @@ nav a {
     flex-direction: column;
     justify-content: ce;
     align-items: center;
-    background: #605d5d;
-    height: 25rem;
+    height: 37rem;
 }
 
 footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 2rem;
     height: 2.5rem;
     color: white;
     background-color: black;
+}
+
+.con-container {
+    background: #e6e6e6;
 }
